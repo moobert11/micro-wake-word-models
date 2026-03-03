@@ -2,10 +2,10 @@
   "type": "micro",
   "wake_word": "Hey Moobert",
   "author": "Moobert",
-  "website": "",
+  "website": "https://github.com/moobert11/micro-wake-word-models",
   "model": "hey_moobert.tflite",
   "trained_languages": ["en"],
-  "version": 1,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "feature_step_size": 10,
