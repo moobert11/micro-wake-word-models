@@ -3,7 +3,7 @@
   "wake_word": "Hey Moobert",
   "author": "Moobert",
   "website": "",
-  "model": "http://192.168.5.191:18790/wake-word/hey_moobert.tflite",
+  "model": "hey_moobert.tflite",
   "trained_languages": ["en"],
   "version": 1,
   "micro": {
