@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Moobert",
+  "author": "Moobert",
+  "website": "",
+  "model": "http://192.168.5.191:18790/wake-word/hey_moobert.tflite",
+  "trained_languages": ["en"],
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 100000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
